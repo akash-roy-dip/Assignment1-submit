@@ -1,9 +1,20 @@
-.Logo{
-   color:#4E47FF;
+.margin{
+    margin: auto 100px auto 100px;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+}
+.btn-1{
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    max-width: 132px;
+    max-height: 48px;
+    padding: 12px;
 }
 
-
-.top-section{
+.top-sec{
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
 }
