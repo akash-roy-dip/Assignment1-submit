@@ -2,14 +2,14 @@
 .inter-uni{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
 .raleway-uni {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -212,7 +212,7 @@
 .button5{
     max-width: 195px;
     margin-bottom: 20px;
-     color: #FFFFFF;
+    color: #FFFFFF;
     background-color: #4E47FF;
     max-width: 195px;
     padding: 12px 36px 12px 36px;
