@@ -295,7 +295,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #0056b3;
+  background-color: #000000;
 }
 
 .footer {
@@ -348,3 +348,8 @@
 .footer-nav a:hover {
   color: #4E47FF;
 }
+
+.btn-1:hover {background-color: #000000}
+.btn-2:hover {background-color: #000000}
+.btn-3:hover {background-color: #000000}
+.button5:hover {background-color: #000000}
