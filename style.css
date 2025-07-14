@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 .inter-uni{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -144,10 +148,15 @@
     text-align: center;
     font-size: 42px;
 }
-/* .wrapper{
+ .reviews-wrapper{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.reviews-container{
+  padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-} */
+}
 .Reviewer{
     text-align: left;
     width: 350px;
@@ -162,7 +171,6 @@
     justify-content:center;
     gap: 20px;
     display: flex;
-    margin-top: 20px;
     flex-wrap: wrap;
 }
 .para-4{
@@ -196,16 +204,16 @@
     max-width: 100%;
     background-color: #FFFFFF;
     border-radius: 16px;
-    margin: 50px 100px 50px 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-      
+    margin: 50px 100px;
+    padding: 20px 0;      
 }
 .image-sec5{
     width: 100%;
-    height: 364.77px;
+    height: auto;
+    max-height: 364.77px;
     border-radius: 48px;
+    object-fit: cover;
+    display: block;
     
 }
 .h3-5{
@@ -230,8 +238,12 @@
     
 }
 .div5{
-    text-align: center;
     margin: 71px 150px 20px 150px;
+}
+@media(max-width:768px){
+  .div5,.sec-5{
+    margin: 20px;
+  }
 }
 .contact-section {
   max-width: 1280px;
